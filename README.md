@@ -16,7 +16,7 @@ Article scraper from PubMed
 直接下載的結果常常是 HTML 頁面、404 錯誤或空白 PDF。
 
 ✅ 2. 嘗試補救：進一步爬取 PDF 真實網址
-使用 BeautifulSoup 抓取 <a href="/pdf/xxx.pdf"> 真正 PDF 連結。
+使用 BeautifulSoup 抓取真正 PDF 連結。
 
 改用 pmc.ncbi.nlm.nih.gov 主機，避開跳轉問題。
 
@@ -44,7 +44,7 @@ requests 無法取得這些非靜態內容。
 
 Biopython 抓 PMID → PMC ID。
 
-requests + BeautifulSoup 抓 <a href="...pdf">。
+requests + BeautifulSoup 抓。
 
 檢查 Content-Type 是否為 application/pdf。
 
